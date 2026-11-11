@@ -1,0 +1,2299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEVEL UP ZONE | Egypt's Best PlayStation Store • Games, PS Plus & Bundles, Social media tools</title>
+
+  <!-- Google Fonts: Cairo (Arabic) & Outfit & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#040407',
+            obsidian900: '#09090f',
+            slate950: '#0f1019',
+            slate900: '#151726',
+            slate800: '#1d2033',
+            neon: {
+              purple: '#a855f7',
+              violet: '#9333ea',
+              light: '#c084fc',
+              deep: '#7e22ce',
+              gold: '#facc15'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'Cairo', 'sans-serif'],
+            arabic: ['Cairo', 'Outfit', 'sans-serif'],
+            display: ['Space Grotesk', 'Outfit', 'Cairo', 'sans-serif']
+          },
+          boxShadow: {
+            'neon-xs': '0 0 16px rgba(168, 85, 247, 0.3)',
+            'neon-sm': '0 0 30px rgba(168, 85, 247, 0.45)',
+            'neon-md': '0 0 46px rgba(168, 85, 247, 0.65)',
+            'gold-sm': '0 0 26px rgba(250, 204, 21, 0.4)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #040407; }
+    ::-webkit-scrollbar-thumb { background: #6b21a8; border-radius: 9999px; border: 2px solid #040407; }
+    ::-webkit-scrollbar-thumb:hover { background: #a855f7; }
+
+    body {
+      background-color: #040407;
+      color: #f8fafc;
+      overflow-x: hidden;
+    }
+
+    .bg-cyber-grid {
+      background-size: 36px 36px;
+      background-image: 
+        linear-gradient(to right, rgba(168, 85, 247, 0.07) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(168, 85, 247, 0.07) 1px, transparent 1px);
+    }
+
+    .slate-card {
+      background: linear-gradient(155deg, rgba(21, 23, 38, 0.95) 0%, rgba(9, 9, 15, 0.98) 100%);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(168, 85, 247, 0.28);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .slate-card:hover {
+      border-color: rgba(192, 132, 252, 0.75);
+      box-shadow: 0 18px 44px -10px rgba(168, 85, 247, 0.42);
+      transform: translateY(-4px);
+    }
+
+  </style>
+</head>
+
+<body class="bg-obsidian text-slate-100 font-sans antialiased selection:bg-neon-purple selection:text-white relative min-h-screen">
+
+  <!-- Ambient Neon Orbs -->
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[450px] bg-purple-700/15 rounded-full blur-[170px] pointer-events-none -z-10"></div>
+  <div class="fixed top-1/3 -left-40 w-96 h-96 bg-purple-900/15 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+  <div class="fixed bottom-10 -right-40 w-96 h-96 bg-indigo-900/15 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+
+  <!-- TOP BAR -->
+  <div class="bg-obsidian900 border-b border-purple-500/25 py-2 px-3 sm:px-6 text-xs relative z-40">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="relative flex h-2.5 w-2.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+        </span>
+        <span class="font-medium text-slate-300">
+          Operating Hours: <strong class="text-white">4:00 PM – 12:00 AM</strong> (Cairo Time)
+        </span>
+        <span class="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-950/90 text-emerald-300 border border-emerald-500/30">
+          Open Daily • تفعيل سريع
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-slate-400 font-mono text-[11px]">
+        <span><i class="fa-brands fa-instagram text-pink-400 mr-1"></i>@levelupzoneegy</span>
+        <span class="hidden sm:inline"><i class="fa-brands fa-whatsapp text-emerald-400 mr-1"></i>01021020388</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY HEADER -->
+  <header class="sticky top-0 z-40 bg-obsidian/95 backdrop-blur-xl border-b border-purple-500/30 shadow-neon-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
+      
+<!-- 1. YOUR BRAND LOGO -->
+  <a href="#" class="flex items-center gap-3.5 group focus:outline-none shrink-0">
+    <img 
+      src="logo.jfif" 
+      alt="Level Up Zone Logo" 
+      onerror="this.src='https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=200&auto=format&fit=crop&q=80'"
+      class="w-12 h-12 sm:w-14 sm:h-14 object-contain rounded-xl border border-purple-500/50 bg-black shadow-lg shadow-purple-500/25 group-hover:border-neon-light transition-all shrink-0" 
+    />
+    <div class="flex flex-col">
+      <span class="text-lg sm:text-xl font-display font-black tracking-wider text-white leading-none">
+        LEVEL UP
+      </span>
+      <span class="text-[10px] sm:text-xs font-display font-black tracking-[0.26em] text-transparent bg-clip-text bg-gradient-to-r from-neon-light via-neon-purple to-amber-400 leading-tight mt-0.5">
+        ZONE
+      </span>
+    </div>
+  </a>
+      <!-- Quick Jump Links -->
+ <nav class="hidden lg:flex items-center gap-6 text-xs font-extrabold uppercase tracking-wider text-slate-300">
+  
+  <a href="#games-section" class="hover:text-neon-light transition flex items-center gap-1.5 whitespace-nowrap">
+    <i class="fa-solid fa-gamepad text-neon-purple"></i> All Games 
+  </a>
+  
+  <a href="#psplus-section" class="text-amber-300 hover:text-amber-200 transition flex items-center gap-1.5 whitespace-nowrap">
+    <i class="fa-solid fa-plus text-amber-400"></i> PS Plus 
+  </a>
+  
+  <a href="#bundles-section" class="text-emerald-300 hover:text-emerald-200 transition flex items-center gap-1.5 whitespace-nowrap">
+    <i class="fa-solid fa-fire text-emerald-400"></i> Bundles 
+  </a>
+  
+  <a href="#servicessubscriptions-section" class="text-purple-200 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+    <i class="fa-solid fa-cart-plus text-purple-400"></i> Services & Subscriptions
+  </a>
+  
+  <a href="#payments-section" class="text-purple-200 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+    <i class="fa-solid fa-wallet text-purple-400"></i> طرق الدفع
+  </a>
+
+</nav>
+
+      <!-- Search & Cart Action -->
+      <div class="flex items-center gap-3">
+        <div class="relative hidden md:block w-56">
+          <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+          <input 
+            type="text" 
+            id="globalSearchInput" 
+            oninput="handleGameSearch(this.value)"
+            placeholder="Search GTA VI , FC27 ..." 
+            class="w-full bg-slate900 border border-purple-500/35 rounded-xl pl-8 pr-3 py-2 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-neon-purple transition"
+          >
+        </div>
+
+        <button 
+          onclick="toggleCartDrawer(true)" 
+          class="relative inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-neon-violet via-neon-purple to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-xs shadow-neon-sm transition"
+        >
+          <i class="fa-solid fa-cart-shopping text-sm"></i>
+          <span class="hidden sm:inline">Cart</span>
+          <span id="headerCartCount" class="px-1.5 py-0.5 text-[10px] font-black rounded-full bg-obsidian text-amber-300 border border-purple-400/50">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-12 pb-16 bg-cyber-grid border-b border-purple-500/25 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl space-y-6">
+      
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-950/80 border border-purple-400/50 text-neon-light text-xs font-black uppercase tracking-widest">
+        <i class="fa-brands fa-playstation text-sm"></i> #1 PlayStation Store in Egypt 🇪🇬
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-display font-black tracking-tight text-white leading-tight">
+        LEVEL UP YOUR GAME <br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-neon-light via-neon-purple to-amber-300">
+          GAMES, PS PLUS & MEGA BUNDLES , Subscriptions, Tools
+        </span>
+      </h1>
+
+      <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+        Instant digital accounts for <strong class="text-white">Games</strong>, <strong class="text-white">Pre-Orders</strong>, <strong class="text-amber-300">PS Plus Essential & Extra</strong>, and <strong class="text-emerald-300">Official Bundles & Social Media Tools</strong>. Pay safely with Telda, InstaPay, or Vodafone Cash.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+        <a href="#games-section" class="px-5 py-3.5 rounded-xl font-black text-xs uppercase tracking-wider bg-gradient-to-r from-neon-violet to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-neon-sm transition flex items-center gap-2">
+          <i class="fa-solid fa-gamepad"></i> 1. All Games
+        </a>
+        <a href="#psplus-section" class="px-5 py-3.5 rounded-xl font-black text-xs uppercase tracking-wider bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 hover:from-amber-300 hover:to-yellow-300 text-black shadow-gold-sm transition flex items-center gap-2">
+          <i class="fa-solid fa-plus"></i> 2. PS Plus (Essential & Extra)
+        </a>
+        <a href="#bundles-section" class="px-5 py-3.5 rounded-xl font-black text-xs uppercase tracking-wider bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-black shadow-lg transition flex items-center gap-2">
+          <i class="fa-solid fa-fire"></i> 3. Mega Bundles (7)
+        </a>
+        <a href="DigitalServicesandsubscriptions-section" class="px-5 py-3.5 rounded-xl font-black text-xs uppercase tracking-wider bg-slate900 hover:bg-slate800 text-purple-200 border border-purple-500/40 transition flex items-center gap-2">
+          <i class="fa-solid fa-cart-plus"></i> 4. Services & Subscriptions 
+        </a>
+        <a href="#payment-section" class="px-5 py-3.5 rounded-xl font-black text-xs uppercase tracking-wider bg-slate900 hover:bg-slate800 text-purple-200 border border-purple-500/40 transition flex items-center gap-2">
+          <i class="fa-solid fa-credit-card"></i> 5. طرق الدفع
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 1: ALL 15 GAMES -->
+  <section id="games-section" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-purple-500/25">
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950/80 border border-purple-500/40 text-neon-light text-xs font-black uppercase tracking-widest mb-2">
+          <i class="fa-solid fa-gamepad"></i> Section 1 • كتالوج الألعاب العالميه
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-display font-black text-white">
+          All Digital Games Catalog
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">
+          Switch between <strong class="text-purple-300">Primary PS5</strong>, <strong class="text-purple-300">Primary PS4</strong>, or <strong class="text-amber-300">Secondary</strong> to view instant prices.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <button onclick="filterGames('all')" id="filter-btn-all" class="game-filter-btn px-4 py-2 rounded-xl text-xs font-black uppercase bg-neon-purple text-white shadow-neon-xs transition">
+          All Games
+        </button>
+        <button onclick="filterGames('flagship')" id="filter-btn-flagship" class="game-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate900 text-slate-300 hover:text-white border border-purple-500/30 transition">
+          PS5 Favourites & Pre-Orders 
+        </button>
+        <button onclick="filterGames('deals')" id="filter-btn-deals" class="game-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate900 text-emerald-300 hover:text-white border border-emerald-500/30 transition">
+          Budget Deals From 75 EGP 
+        </button>
+      </div>
+    </div>
+
+    <!-- 13 Games Grid Container -->
+    <div id="gamesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+  
+<!-- SECTION 2: PS PLUS TIERS -->
+  <section id="psplus-section" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-purple-500/25">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/15 border border-amber-400/40 text-amber-300 text-xs font-black uppercase tracking-widest mb-2">
+          <i class="fa-solid fa-plus"></i> Section 2 • اشتراكات بلايستيشن بلس الرسمية 🎮
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-display font-black text-white">
+          PlayStation Plus Subscriptions (6 Plans)
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">
+          Choose between <strong class="text-amber-300">Essential</strong> (Multiplayer & Monthly Games) or <strong class="text-neon-light">Extra</strong> (400+ VIP Game Catalog).
+        </p>
+      </div>
+
+      <div class="text-xs font-bold text-amber-300 bg-amber-950/60 border border-amber-400/40 px-4 py-2.5 rounded-xl">
+        <i class="fa-solid fa-shield-halved mr-1"></i> تفعيل رسمي وآمن 100% • Guaranteed Delivery
+      </div>
+    </div>
+
+    <!-- Dynamic 6 PS Plus Cards Grid -->
+    <div id="psPlusGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- SECTION 3: ALL 7 MEGA BUNDLES -->
+  <section id="bundles-section" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-purple-500/25">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-400/40 text-emerald-300 text-xs font-black uppercase tracking-widest mb-2">
+          <i class="fa-solid fa-fire"></i> Section 3 • باقات وعروض LEVEL UP ZONE الحصرية 🔥
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-display font-black text-white">
+          All 7 Official Level Up Zone Mega Bundles
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">
+          Massive savings on <strong class="text-white">GTA VI</strong>, <strong class="text-white">EA Sports FC 27</strong>, and <strong class="text-amber-300">12 Months of PS Plus</strong>.
+        </p>
+      </div>
+
+      <div class="text-xs font-bold text-amber-300 bg-amber-950/60 border border-amber-400/40 px-4 py-2.5 rounded-xl">
+        <i class="fa-solid fa-bolt mr-1"></i> Fast WhatsApp Activation • تفعيل سريع
+      </div>
+    </div>
+
+    <!-- 7 Bundles Grid Container -->
+    <div id="bundlesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+<!-- SECTION 4: DIGITAL SERVICES & SUBSCRIPTIONS -->
+  <section id="servicessubscriptions-section" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-purple-500/25">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-purple-950/80 border border-purple-400/40 text-neon-light text-xs font-black uppercase tracking-widest mb-2">
+          <i class="fa-solid fa-cart-plus"></i> Section 4 • خدمات واشتراكات رقمية ودعم السوشيال ميديا 🚀
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-display font-black text-white">
+          Digital Subscriptions & Social Growth
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">
+          Premium AI tool subscriptions, 4K IPTV, and real social media growth with Fast WhatsApp activation.
+        </p>
+      </div>
+
+      <div class="text-xs font-bold text-amber-300 bg-amber-950/60 border border-amber-400/40 px-4 py-2.5 rounded-xl">
+        <i class="fa-solid fa-bolt mr-1"></i> تسليم سريع لجميع الخدمات • Fast Delivery
+      </div>
+    </div>
+
+    <!-- Dynamic Services Grid -->
+    <div id="servicesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </section>
+
+  <!-- SECTION 5: PAYMENT METHODS -->
+  <section id="payments-section" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <span class="px-4 py-1.5 rounded-full bg-purple-950 border border-purple-400/50 text-neon-light text-xs font-black uppercase tracking-widest">
+        Section 5 • طرق الدفع الرسمية 💳
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-display font-black text-white mt-3">
+        Official Payment Methods
+      </h2>
+      <p class="text-slate-300 text-sm mt-2">
+        Transfer quickly via <strong>Telda</strong>, <strong>InstaPay</strong>, or <strong>Vodafone Cash</strong>, then send your transfer screenshot on WhatsApp for instant activation.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- 1. TELDA CARD -->
+      <div class="slate-card rounded-3xl p-6 border-2 border-emerald-500/40 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-5">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-800 flex items-center justify-center text-white text-2xl shadow-lg">
+              <i class="fa-solid fa-at"></i>
+            </div>
+            <span class="px-3 py-1 rounded-full text-xs font-black bg-emerald-950 text-emerald-300 border border-emerald-500/40">
+              🔹 Telda
+            </span>
+          </div>
+
+          <h3 class="text-xl font-display font-black text-white">🔹 Telda (تيلدا)</h3>
+          <p class="text-xs text-slate-400 mt-1 mb-5">
+            Send directly via our official Telda handle:
+          </p>
+
+          <div class="p-4 rounded-2xl bg-obsidian border border-emerald-500/40 flex items-center justify-between gap-2 mb-6">
+            <div>
+              <span class="block text-[10px] uppercase text-emerald-400 font-bold">Telda Username</span>
+              <span class="text-lg font-mono font-black text-white select-all">@anasshossammm</span>
+            </div>
+            <button 
+              onclick="copyValue('@anasshossammm', 'Telda Username (@anasshossammm)')" 
+              class="px-3.5 py-2 rounded-xl bg-emerald-600/25 hover:bg-emerald-600 text-emerald-200 hover:text-white text-xs font-bold border border-emerald-500/40 transition shrink-0"
+            >
+              <i class="fa-regular fa-copy mr-1"></i> Copy
+            </button>
+          </div>
+        </div>
+
+        <a 
+          href="https://wa.me/201021020388?text=Hello%20Level%20Up%20Zone,%20I%20transferred%20via%20Telda%20to%20@anasshossammm.%20Here%20is%20my%20screenshot:" 
+          target="_blank" 
+          class="w-full py-3.5 rounded-xl bg-emerald-600/25 hover:bg-emerald-600 text-emerald-200 hover:text-white font-black text-xs border border-emerald-500/40 transition flex items-center justify-center gap-2"
+        >
+          <i class="fa-brands fa-whatsapp text-sm"></i> Send Telda Screenshot
+        </a>
+      </div>
+
+      <!-- 2. INSTAPAY CARD -->
+      <div class="slate-card rounded-3xl p-6 border-2 border-neon-purple shadow-neon-sm flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-5">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-neon-purple to-indigo-800 flex items-center justify-center text-white text-2xl shadow-neon-xs">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <span class="px-3 py-1 rounded-full text-xs font-black bg-purple-950 text-purple-200 border border-purple-400/50">
+              🔹 InstaPay 💸
+            </span>
+          </div>
+
+          <h3 class="text-xl font-display font-black text-white">🔹 InstaPay 💸</h3>
+          <p class="text-xs font-bold text-amber-300 mt-1 mb-4">
+            <i class="fa-solid fa-building-columns mr-1"></i> Banque du Caire | بنك القاهره 🏦
+          </p>
+
+          <div class="space-y-2.5 mb-6">
+            <a 
+              href="https://ipn.eg/S/levelupzoneegy/instapay/81DcyP" 
+              target="_blank" 
+              class="w-full py-3 px-3 rounded-xl bg-gradient-to-r from-neon-purple to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-xs shadow-neon-xs transition flex items-center justify-center gap-2"
+            >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Pay via Direct InstaPay Link
+            </a>
+
+            <div class="p-3 rounded-xl bg-obsidian border border-purple-500/40 flex items-center justify-between gap-2">
+              <div class="min-w-0">
+                <span class="block text-[10px] uppercase text-purple-300 font-bold">InstaPay IPA Address</span>
+                <span class="text-xs sm:text-sm font-mono font-black text-white truncate block select-all">levelupzoneegy@instapay</span>
+              </div>
+              <button 
+                onclick="copyValue('levelupzoneegy@instapay', 'InstaPay IPA')" 
+                class="px-3 py-1.5 rounded-lg bg-purple-600/25 hover:bg-neon-purple text-purple-200 hover:text-white text-xs font-bold border border-purple-500/40 transition shrink-0"
+              >
+                <i class="fa-regular fa-copy mr-1"></i> Copy
+              </button>
+            </div>
+
+            <div class="p-3 rounded-xl bg-obsidian border border-purple-500/40 flex items-center justify-between gap-2">
+              <div>
+                <span class="block text-[10px] uppercase text-purple-300 font-bold">InstaPay Phone Number</span>
+                <span class="text-base font-mono font-black text-white select-all">01021020388</span>
+              </div>
+              <button 
+                onclick="copyValue('01021020388', 'InstaPay Phone Number')" 
+                class="px-3 py-1.5 rounded-lg bg-purple-600/25 hover:bg-neon-purple text-purple-200 hover:text-white text-xs font-bold border border-purple-500/40 transition shrink-0"
+              >
+                <i class="fa-regular fa-copy mr-1"></i> Copy
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <a 
+          href="https://wa.me/201021020388?text=Hello%20Level%20Up%20Zone,%20I%20transferred%20via%20InstaPay%20(Banque%20du%20Caire).%20Here%20is%20my%20screenshot:" 
+          target="_blank" 
+          class="w-full py-3 rounded-xl bg-purple-600/25 hover:bg-purple-600 text-purple-200 hover:text-white font-black text-xs border border-purple-400/40 transition flex items-center justify-center gap-2"
+        >
+          <i class="fa-brands fa-whatsapp text-sm"></i> Send InstaPay Screenshot
+        </a>
+      </div>
+
+      <!-- 3. VODAFONE CASH CARD -->
+      <div class="slate-card rounded-3xl p-6 border-2 border-red-500/40 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-5">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-red-600 to-rose-800 flex items-center justify-center text-white text-2xl shadow-lg">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <span class="px-3 py-1 rounded-full text-xs font-black bg-red-950 text-red-300 border border-red-500/40">
+              🔹 Vodafone Cash 💵
+            </span>
+          </div>
+
+          <h3 class="text-xl font-display font-black text-white">🔹 Vodafone Cash 💵</h3>
+          <p class="text-xs text-slate-400 mt-1 mb-5">
+            Transfer to our official Vodafone Cash wallet:
+          </p>
+
+          <div class="space-y-3 mb-6">
+            <div class="p-4 rounded-2xl bg-obsidian border border-red-500/40 flex items-center justify-between gap-2">
+              <div>
+                <span class="block text-[10px] uppercase text-red-300 font-bold">Vodafone Cash Number</span>
+                <span class="text-lg font-mono font-black text-white select-all">01021020388</span>
+              </div>
+              <button 
+                onclick="copyValue('01021020388', 'Vodafone Cash Number')" 
+                class="px-3.5 py-2 rounded-xl bg-red-600/25 hover:bg-red-600 text-red-200 hover:text-white text-xs font-bold border border-red-500/40 transition shrink-0"
+              >
+                <i class="fa-regular fa-copy mr-1"></i> Copy
+              </button>
+            </div>
+
+            <div class="p-3.5 rounded-2xl bg-obsidian border border-red-500/30 flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-300">Account Name:</span>
+              <span dir="rtl" class="font-arabic text-base font-black text-amber-300">نيره ي</span>
+             </div>
+          </div>
+        </div>
+
+        <a 
+          href="https://wa.me/201021020388?text=Hello%20Level%20Up%20Zone,%20I%20transferred%20via%20Vodafone%20Cash%20to%2001021020388.%20Here%20is%20my%20screenshot:" 
+          target="_blank" 
+          class="w-full py-3.5 rounded-xl bg-red-600/25 hover:bg-red-600 text-red-200 hover:text-white font-black text-xs border border-red-500/40 transition flex items-center justify-center gap-2"
+        >
+          <i class="fa-brands fa-whatsapp text-sm"></i> Send Vodafone Cash Screenshot
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Activation Callout -->
+    <div class="mt-8 p-6 rounded-3xl bg-gradient-to-r from-purple-950 via-slate900 to-indigo-950 border-2 border-amber-400/70 shadow-neon-sm flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-right">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-2xl bg-amber-400/20 border border-amber-400 flex items-center justify-center text-amber-300 text-xl shrink-0">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <div>
+          <p dir="rtl" class="font-arabic text-lg sm:text-2xl font-black text-white">
+            ⚡ ابعت سكرين التحويل وطلبك يجهز فوراً — 🎮 LEVEL UP ZONE 🎮
+          </p>
+          <p class="text-xs text-purple-200 mt-0.5">
+            Hotlines: <code class="text-amber-300 font-bold">01021020388</code> & <code class="text-amber-300 font-bold">01111496238</code>
+          </p>
+        </div>
+      </div>
+
+      <a 
+        href="https://wa.me/201021020388?text=Hello%20Level%20Up%20Zone,%20here%20is%20my%20transfer%20screenshot%20for%20activation:" 
+        target="_blank" 
+        class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-black font-black text-xs uppercase tracking-wider shadow-lg transition shrink-0 flex items-center gap-2"
+      >
+        <i class="fa-brands fa-whatsapp text-base"></i> Send Screenshot
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-obsidian900 border-t border-purple-500/30 py-12 text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-purple-500/20">
+        
+        <div class="flex items-center gap-3">
+          <img 
+            src="logo.jfif" 
+            alt="Level Up Zone Logo" 
+            onerror="this.src='https//images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=200&auto=format&fit=crop&q=80'"
+            class="w-12 h-12 rounded-xl object-contain border border-purple-500/40 bg-black p-0.5" 
+          />
+          <div>
+            <span class="font-display font-black text-white text-base tracking-wider block">LEVEL UP ZONE 🇪🇬</span>
+            <span class="text-[11px] text-slate-400">Daily 4:00 PM – 12:00 AM • Instant Account Delivery</span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="https://wa.me/201021020388" target="_blank" class="px-3.5 py-2 rounded-xl bg-slate900 hover:bg-slate800 border border-purple-500/30 text-white font-mono font-bold flex items-center gap-1.5 transition">
+            <i class="fa-brands fa-whatsapp text-emerald-400"></i> 01021020388
+          </a>
+          <a href="https://wa.me/201111496238" target="_blank" class="px-3.5 py-2 rounded-xl bg-slate900 hover:bg-slate800 border border-purple-500/30 text-white font-mono font-bold flex items-center gap-1.5 transition">
+            <i class="fa-brands fa-whatsapp text-emerald-400"></i> 01111496238
+          </a>
+          <a href="https://instagram.com/levelupzoneegy" target="_blank" class="px-3.5 py-2 rounded-xl bg-slate900 hover:bg-slate800 border border-purple-500/30 text-pink-300 font-bold flex items-center gap-1.5 transition">
+            <i class="fa-brands fa-instagram"></i> @levelupzoneegy
+          </a>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
+        <p>© 2026 LEVEL UP ZONE. All Rights Reserved.</p>
+        <p>Telda: @anasshossammm • InstaPay & Vodafone Cash: 01021020388</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a 
+    href="https://wa.me/201021020388?text=Hello%20Level%20Up%20Zone,%20I%20want%20to%20order!" 
+    target="_blank" 
+    class="fixed bottom-5 left-5 z-40 inline-flex items-center gap-2.5 px-4 py-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-600 text-black font-black text-xs shadow-lg hover:scale-105 transition"
+  >
+    <i class="fa-brands fa-whatsapp text-lg"></i>
+    <span>WhatsApp Support</span>
+  </a>
+
+  <!-- SLIDE-OVER CART DRAWER -->
+  <div id="cartBackdrop" onclick="toggleCartDrawer(false)" class="fixed inset-0 z-50 hidden bg-black/75 backdrop-blur-sm"></div>
+
+  <aside id="cartDrawer" class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-obsidian900 border-l border-purple-500/40 shadow-neon-md transform translate-x-full transition-transform duration-300 flex flex-col justify-between">
+    
+    <div class="p-5 border-b border-purple-500/30 flex items-center justify-between bg-slate950">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-neon-purple/20 border border-neon-purple flex items-center justify-center text-neon-light">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-display font-black text-white">Your Cart</h3>
+          <p class="text-[11px] text-purple-300">Level Up Zone Instant Order</p>
+        </div>
+      </div>
+      <button onclick="toggleCartDrawer(false)" class="w-8 h-8 rounded-lg bg-slate900 border border-purple-500/30 text-slate-300 hover:text-white flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="flex-1 overflow-y-auto p-5 space-y-4">
+      <div id="cartItemsContainer" class="space-y-3"></div>
+
+      <!-- Primary Account Warning -->
+      <div class="p-3.5 rounded-2xl bg-amber-950/85 border border-amber-400/70 text-xs space-y-1.5">
+        <div class="flex items-center gap-1.5 font-black text-amber-300 uppercase text-[11px]">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <span>PRIMARY ACCOUNT RULE (شرط الحساب الرئيسي)</span>
+        </div>
+        <p dir="rtl" class="font-arabic text-white font-bold text-right text-xs leading-relaxed">
+          تعليمات الحساب الرئيسي (Primary): ابدأ التحميل و اعمل بريمري او اينيبل ثم اعمل تسجيل خروج (<span class="text-amber-300 underline font-black">Log Out فقط وليس Sign Out</span>) واطلع بره الحساب، مع عدم اللعب على الحساب المسلم نهائياً.
+        </p>
+      </div>
+    </div>
+
+    <div class="p-5 border-t border-purple-500/30 bg-slate950 space-y-4">
+      <div>
+        <label class="block text-[11px] font-bold uppercase tracking-wider text-purple-300 mb-1.5">
+          1. Select Payment Method
+        </label>
+        <select id="checkoutPaymentSelect" class="w-full bg-obsidian border border-purple-500/40 rounded-xl px-3 py-2.5 text-xs font-bold text-white focus:outline-none">
+          <option value="InstaPay (01021020388 / levelupzoneegy@instapay - Banque du Caire)">🔹 InstaPay (01021020388 - Banque du Caire)</option>
+          <option value="Vodafone Cash (01021020388 - Name: **نيره ي)">🔹 Vodafone Cash (01021020388 - **نيره ي)</option>
+          <option value="Telda (@anasshossammm)">🔹 Telda (@anasshossammm)</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="block text-[11px] font-bold uppercase tracking-wider text-purple-300 mb-1.5">
+          2. Choose WhatsApp Hotline
+        </label>
+        <div class="grid grid-cols-2 gap-2">
+          <label class="cursor-pointer">
+            <input type="radio" name="whatsappHotline" value="201021020388" checked class="peer hidden">
+            <div class="p-2.5 rounded-xl bg-obsidian border border-purple-500/30 peer-checked:border-emerald-400 peer-checked:bg-emerald-950/40 text-center text-xs font-mono font-bold text-white transition">
+              <i class="fa-brands fa-whatsapp text-emerald-400 mr-1"></i> 01021020388
+            </div>
+          </label>
+          <label class="cursor-pointer">
+            <input type="radio" name="whatsappHotline" value="201111496238" class="peer hidden">
+            <div class="p-2.5 rounded-xl bg-obsidian border border-purple-500/30 peer-checked:border-emerald-400 peer-checked:bg-emerald-950/40 text-center text-xs font-mono font-bold text-white transition">
+              <i class="fa-brands fa-whatsapp text-emerald-400 mr-1"></i> 01111496238
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <span class="text-xs font-bold text-slate-300 uppercase">Total Amount:</span>
+        <span id="cartTotalDisplay" class="text-2xl font-display font-black text-amber-300">0 EGP</span>
+      </div>
+
+      <button 
+        onclick="checkoutOnWhatsApp()" 
+        class="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-black font-black text-xs uppercase tracking-wider shadow-lg transition flex items-center justify-center gap-2"
+      >
+        <i class="fa-brands fa-whatsapp text-base"></i> Send Order via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- Notification Toast -->
+  <div id="toastAlert" class="fixed bottom-5 right-5 z-50 hidden items-center gap-3 px-4 py-3 rounded-2xl bg-slate900 border-2 border-neon-purple text-white text-xs font-bold shadow-neon-md">
+    <i class="fa-solid fa-circle-check text-emerald-400 text-base"></i>
+    <span id="toastAlertText">Done!</span>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // GAMES DATA (WITH REALISTIC HD COVER VISUALS)
+    const GAMES_DATA = [
+      {
+        id: 'fc27-std',
+        title: 'EA Sports FC 27 Standard Edition',
+        arabicTag: 'أرخص فيفا في مصر ',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'flagship',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/31767ed959062148430bb9b54aa5cf1861c02496bdfeea2a.png?w=440',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1700, oldPrice: null, available: true  },
+          pri4: { label: 'Primary PS4', price: 500, oldPrice: 700, available: true  },
+          sec:  { label: 'Secondary (PS4/PS5)', price: 700, oldPrice: 900, available: false  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Full Ultimate Team and competitive Online Seasons supported.'
+      },
+      {
+        id: 'fc27-ult',
+        title: 'EA Sports FC 27 Ultimate Edition',
+        arabicTag: 'نسخة الألتيميت 🏆',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'flagship',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202607/2322/9f33e55301e668a0fc360d6a405eef5db2a1b8142ebd5099.jpg',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1700, oldPrice: 1950, available: true  },
+          pri4: { label: 'Primary PS4', price: 500, oldPrice: 750, available: true  },
+          sec:  { label: 'Secondary (PS4/PS5)', price: 2300, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Rewards are all on The Secondary ONLY!'
+      },
+      {
+        id: 'gta6-std',
+        title: 'GTA 6 Standard Edition (Pre-Order)',
+        arabicTag: 'حجز مسبق • Pre-Order 🌴',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_Robbery_With_Logo_landscape.0sjdgaq91u2yn.jpg?akim=1&imdensity=1&imwidth=3840',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 2200, oldPrice: 2300, available: true  },
+          sec:  { label: 'Secondary PS5', price: 1500, oldPrice: 1600, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Explore Vice City and Leonida on launch day directly on PlayStation 5.'
+      },
+      {
+        id: 'gta6-ult',
+        title: 'GTA 6 Ultimate Edition (Pre-Order)',
+        arabicTag: 'المكافآت للحساب السكندري فقط 👑',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_Robbery_With_Logo_landscape.0sjdgaq91u2yn.jpg?akim=1&imdensity=1&imwidth=3840',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 2500, oldPrice: null, available: true  },
+          sec:  { label: 'Secondary PS5', price: 1800, oldPrice: 1900, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Ultimate edition pre-order rewards & bonus cash on Secondary slot.'
+      },
+      {
+        id: 'cod-mw4',
+        title: 'Call of Duty: Modern Warfare 4 ',
+        arabicTag: 'أقوى أكشن وشوتر 💥',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/63142285b9e04bc0ef3f6af46b665ecea4e47bfa311eb217.jpg',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 2200, oldPrice: null, available: true  },
+          sec:  { label: 'Secondary PS5', price: 1800, oldPrice: null, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Tactical campaign and high-octane Warzone & multiplayer combat.'
+      },
+      {
+    id: 'Wolverine',
+    title: 'Wolverine ',
+    arabicTag: 'عالم مارفل ',
+    platforms: 'PS5', // or 'PS4 / PS5'
+    filterGroup: 'flagship', // e.g., 'flagship', 'bundle', 'action', etc.
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuV6kVey_Pb8QcANV9-8tPPfkSXGznVQ4O8K8sCTzIhMkELRQuOek5j2I&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 1650, oldPrice: 2300, available: true  },
+      sec: { label: 'Secondary PS5', price: 1000, oldPrice: 1700, available: true  }
+    },
+    defaultSlot: 'pri5',
+     note: 'Marvels best Game in Recent Years.'
+    
+      },
+            {
+    id: 'Forza-6',
+    title: 'Forza Horizon 6 ',
+    arabicTag: ' عربيات و مهمات ب طلب مصبق',
+    platforms: 'PS5', // or 'PS4 / PS5'
+    filterGroup: 'flagship', // e.g., 'flagship', 'bundle', 'action', etc.
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCa597EXUIhI1YZ1L7Xrlko_2D80S4H98cJFynzKAqMg&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 2000, oldPrice: 2300, available: true  },
+      sec: { label: 'Secondary PS5', price: 1500, oldPrice: 1700, available: true  }
+    },
+    defaultSlot: 'pri5',
+     note: 'Pre Order Now Forza Horizon 6.'
+    
+      },
+       {
+        id: 'ghost-of-yotei',
+        title: 'Ghost of Yōtei Complete edition ',
+        arabicTag: 'ملحمة الساموراي الجديدة ⚔️',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://www.back2gaming.com/wp-content/uploads/2025/09/Ghost-of-Yotei_20250921173724.webp',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1900, oldPrice: 2200, available: true  },
+          sec:  { label: 'Secondary PS5', price: 1300, oldPrice: 1800, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Venture into feudal Japan around Mount Yōtei in an immersive samurai epic.'
+      },
+      {
+    id: 'Battle-Field 6',
+    title: 'Battle Field 6 ',
+    arabicTag: 'حروب كلها ',
+    platforms: 'PS5', // or 'PS4 / PS5'
+    filterGroup: 'flagship', // e.g., 'flagship', 'bundle', 'action', etc.
+    image: 'https://image.api.playstation.com/vulcan/ap/rnd/202507/2514/054ff23fde43c010f63ed99eb1fca6957c26d2b136a9294d.jpg',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 2000, oldPrice: 2200, available: true  },
+      sec: { label: 'Secondary PS5', price: 1500, oldPrice: 1800, available: true  }
+    },
+    defaultSlot: 'pri5',
+     note: 'Warzone & multiplayer combat.'
+  },
+        {
+        id: '007-first-light',
+        title: '007 First Light ',
+        arabicTag: 'جيمس بوند الجديدة 🍸',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://i.ytimg.com/vi/J4qY9DYE184/maxresdefault.jpg',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1000, oldPrice: 1500, available: true  },
+          sec:  { label: 'Secondary PS5', price: 800, oldPrice: 1000, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Next-generation cinematic spy origin thriller built exclusively for PS5.'
+      },
+      {
+        id: 'UFC-6',
+        title: 'UFC 6 ',
+        arabicTag: 'أقوى مصارعه علي البليستيشن   ',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1LQ3NJKLuoyrXxBaDkw019W7524Ew_3BVtz_IwGlLvg&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1700, oldPrice: 1999, available: true  },
+          sec:  { label: 'Secondary PS5', price: 1200, oldPrice: 1500, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Dynamic weather, vibrant landscapes, and hundreds of custom supercars.'
+      },
+            {
+        id: 'Hitman-3',
+        title: 'Hitman World Of assasination ',
+        arabicTag: 'أقوى مصارعه علي البليستيشن   ',
+        platforms: 'PS5 / PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM7ZZnLOedQFm5wvbn6aOxhXVmhhM2tpbrXbtvduQXGA&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 800, oldPrice: 1200, available: true },
+          pri4: { label: 'Primary PS4', price: 500, oldPrice: 800, available: true },
+          sec:  { label: 'Secondary PS5', price: 300, oldPrice: 600, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'be the next undercover agent.'
+      },
+      {
+        id: 'forza-horizon-5',
+        title: 'Forza Horizon 5 ',
+        arabicTag: 'أقوى سباقات عالم مفتوح 🏎️',
+        platforms: 'PS5',
+        filterGroup: 'flagship',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXaFeVPkBaxi8lQnrVtw4SkHMiNW8PVeJCUFRBL1zaA&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1700, oldPrice: null, available: true  },
+          sec:  { label: 'Secondary PS5', price: 1200, oldPrice: null, available: true  }
+        },
+        defaultSlot: 'pri5',
+        note: 'Dynamic weather, vibrant landscapes, and hundreds of custom supercars.'
+      },
+            {
+        id: 'GodofWar',
+        title: 'God Of War 2018 ',
+        arabicTag: 'خصم خاص لفترة محدودة ✨',
+        platforms: 'PS5 / PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5iouGSu81-wpo_Ct361ZURDsFikwnAza5lWiEqf0KINx8WKgTl_-Xg-wP&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 375, oldPrice: 500, available: true },
+          pri4: {label : 'Primary PS4', price: 200, oldPrice: 350, available: true},
+          sec:  { label: 'Secondary PS5', price: 150, oldPrice: 200, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Best Storyline Game a playstation classic  Save More Than 50% .'
+      },
+
+            {
+        id: 'LastOfUs-Remastered',
+        title: 'Last Of Us Remastered ',
+        arabicTag: '   لعبه ال ستوري العالميه',
+        platforms: 'PS5 / PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0P1ec65_oYPHwaOb3WRp0yC0thYvFoqcslRboH0Llkg&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 300, oldPrice: 900, available: true },
+          pri4: {label : 'Primary PS4', price: 200, oldPrice: 450, available: true},
+          sec:  { label: 'Secondary PS5', price: 125, oldPrice: 350, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Action and Save More Than 50% .'
+      },
+      {
+        id: 'LastOfUs-Part2',
+        title: 'Last Of Us Part II ',
+        arabicTag:  'الجزء الثاني التاريخي', 
+        platforms: 'PS5 / PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUMNqskguvBScppMFxK0TtjePeMhYfttfxMMsOK87lA&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 700, oldPrice: 900, available: true },
+          pri4: {label : 'Primary PS4', price: 400, oldPrice: 650, available:true },
+          sec:  { label: 'Secondary PS5', price: 300, oldPrice: 450, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Five Years later, deadly journey across USA .'
+      },
+      {
+        id: 'BatmanArkham',
+        title: 'Batman Arkham Knight ',
+        arabicTag: 'باتمان الاخيره',
+        platforms: 'PS5 / PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeuhBy1xcwmJeh8a9j6MUMaXdFuCU8hY-rc99FHL31fA&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 200, oldPrice: 350, available: true },
+          pri4: {label : 'Primary PS4', price: 100, oldPrice: 275, available: true},
+          sec:  { label: 'Secondary PS5', price: 75, oldPrice: 150, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Batman on Playstation Save More Than 75% .'
+      },
+      {
+        id: 'expedition-33',
+        title: 'Clair Obscur: Expedition 33 ',
+        arabicTag: 'خصم خاص لفترة محدودة ✨',
+        platforms: 'PS5',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74VS-R_HTiJojzlLFLc7GQ5Gmmvm5riemfDnxFSHJWIb7mAGqhaiMIwjX&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 800, oldPrice: 1500, available: true },
+          sec:  { label: 'Secondary PS5', price: 500, oldPrice: 999, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Save 700 EGP on Primary PS5! Turn-based reactive fantasy RPG.'
+      },
+      {
+        id: 'nfs-heat',
+        title: 'Need for Speed Heat',
+        arabicTag: 'عرض الأدرينالين والسرعة ⚡',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'deals',
+        image: 'data:image/jpeg;base64,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',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 200, oldPrice: 350, available: true },
+          pri4: { label: 'Primary PS4', price: 100, oldPrice: 250, available: true},
+          sec:  { label: 'Secondary', price: 75, oldPrice: 150, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Hustle by day and risk it all by night in Palm City starting from 75 EGP.'
+      },
+      {
+        id: 'tomb-raider',
+        title: 'Tomb Raider: Definitive Edition',
+        arabicTag: 'مغامرة لارا كروفت الكاملة 🏹',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBwwzexnThAwZOa3p_5RGueLtJXgkvlGyyXMcYbls_5g&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 150, oldPrice: 300, available: true},
+          pri4: { label: 'Primary PS4', price: 100, oldPrice: 200, available: true },
+          sec:  { label: 'Secondary', price: 75, oldPrice: 125, available:  true}
+        },
+        defaultSlot: 'pri5',
+        note: 'Action-adventure masterpiece including all DLC packs starting at 75 EGP.'
+      },
+  {
+    id: 'subnautica',
+    title: 'Subnautica',
+    arabicTag: 'مغامرة واستكشاف أعماق البحار',
+    platforms: 'PS4 / PS5',
+    filterGroup: 'deals',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwR3xahM9y3Q3IappWr7sUSjOjP0YDPXo2a3vVaGIXmw&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 200, oldPrice: 280, available: true },
+      pri4: { label: 'Primary PS4', price: 125, oldPrice: 190, available:true },
+      sec: { label: 'Secondary', price: 75, oldPrice: 120, available: true }
+    },
+    defaultSlot: 'pri5',
+    note: 'استكشف عالم المحيط الغامض واصنع أدوات النجاة الخاصة بك.'
+  },
+  {
+    id: 'ac-rogue-remastered',
+    title: "Assassin's Creed Rogue Remastered",
+    arabicTag: 'أكشن ومغامرات تاريخية',
+    platforms: 'PS4 / PS5',
+    filterGroup: 'deals',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-zbJyBZfSlecaEAdQLDlLzeK8PD9oO38ruhz-y8Q3A&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 200, oldPrice: 290, available: true },
+      pri4: { label: 'Primary PS4', price: 125, oldPrice: 195, available: true},
+      sec: { label: 'Secondary', price: 75, oldPrice: 130, available: true }
+    },
+    defaultSlot: 'pri5',
+    note: 'عش تجربة التحول إلى صائد الأساسنز في النسخة المحسنة.'
+  },
+    {
+    id: 'ac-creed-valhalla',
+    title: "Assassin's creed Mirage & Valhalla",
+    arabicTag: 'أكشن ومغامرات تاريخية',
+    platforms: 'PS4 / PS5',
+    filterGroup: 'deals',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJVdl9NvZnfPw6qKKvniFx2_PCfP3bHNa8P_vv53mwA&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 650, oldPrice: 850, available: true },
+      pri4: { label: 'Primary PS4', price: 400, oldPrice: 600, available: true },
+      sec: { label: 'Secondary', price: 325, oldPrice: 500, available: true }
+    },
+    defaultSlot: 'pri5',
+    note: 'Bundle price of one game !'
+  },
+  {
+    id: 'farcry-4-gold',
+    title: 'Far Cry 4 Gold Edition',
+    arabicTag: 'عالم مفتوح وشوتر مع جميع الإضافات',
+    platforms: 'PS4 / PS5',
+    filterGroup: 'deals',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP-V4HDi4kBALSsGVFiW6ysBQvAvIRdUwd-Tc9ZPVJGg&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 400, oldPrice: 550, available: true },
+      pri4: { label: 'Primary PS4', price: 200, oldPrice: 320, available: true },
+      sec: { label: 'Secondary', price: 150, oldPrice: 240, available: true }
+    },
+    
+    defaultSlot: 'pri5',
+    note: 'تشمل اللعبة الكاملة مع حزمة Season Pass وكافة المهام الإضافية.'
+  },
+  {
+    id: 'little-nightmares-bundle',
+    title: 'Little Nightmares I & II Bundle',
+    arabicTag: 'رعب وألغاز تشويقية',
+    platforms: 'PS4 / PS5',
+    filterGroup: 'deals',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWlOAxdhKI4fExLCP604MRyDXolSjOSYjFGSSHhEmoDQ&s=10',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 450, oldPrice: 620, available: true },
+      pri4: { label: 'Primary PS4', price: 250, oldPrice: 380, available: true },
+      sec: { label: 'Secondary', price: 150, oldPrice: 260, available: true }
+    },
+    defaultSlot: 'pri5',
+    note: 'حزمة ثنائية تأخذك في رحلة مشوقة لمواجهة مخاوف الطفولة.'
+  },
+  {
+    id: 'mortal-kombat-x',
+    title: 'Mortal Kombat X',
+    arabicTag: 'قتال وتحديات أركيد عنيفة',
+    platforms: 'PS4 / PS5',
+    filterGroup: 'deals',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCvOamdxoe-akHdaueURGXr9h2YG8UJNQY3fXh_cyBIA&s',
+    slots: {
+      pri5: { label: 'Primary PS5', price: 150, oldPrice: 220, available: true },
+      pri4: { label: 'Primary PS4', price: 100, oldPrice: 160, available: true },
+      sec: { label: 'Secondary', price: 50, oldPrice: 90, available:true }
+    },
+    defaultSlot: 'pri5',
+    note: 'ادخل حلبة المعارك القوية ونفذ حركات الـ Fatality المميزة.'
+  },
+
+      {
+        id: 'crash-team-racing',
+        title: 'Crash Team Racing Nitro-Fueled',
+        arabicTag: 'سباقات كراش الممتعة 🏁',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLboSF3Z4VW1jGXM835q71EZ61sQOPWik1ScBIsyMPbhLzY3gKvC4eZQ&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 500, oldPrice: 800, available: true},
+          pri4: { label: 'Primary PS4', price: 300, oldPrice: null, available: true },
+          sec:  { label: 'Secondary', price: 200, oldPrice: null, available: true },
+        },
+        defaultSlot: 'pri5',
+        note: 'Save 300 EGP on Primary PS5! Local split-screen and global online karting.'
+      },
+{
+        id: 'gang-beasts',
+        title: 'Gang Beasts',
+        arabicTag: 'لعب مع اصحابك بمتعه لا تحصي',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLxQ7RVlx637pruOnn1xv2j6xs62kLJGXuY5Gjd31Slw&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 200, oldPrice: 300, available: true },
+          pri4: { label: 'Primary PS4', price: 100, oldPrice: 200, available: true },
+          sec:  { label: 'Secondary',   price: 75,  oldPrice: 100, available: false }
+        },
+        defaultSlot: 'pri5',
+        note: 'Multiplayer fun with friends .'
+      },
+      {
+        id: 'detroit-become-human',
+        title: 'Detroit: Become Human',
+        arabicTag: 'عالم من الروبوت مستنيك',
+        platforms: 'PS5 & PS4',
+        filterGroup: 'deals',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuNyCnvt-zF8fSeFqD9cECws4ldrbyaxLG_nd1Ic2DEA&s=10',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 450, oldPrice: 500, available: true },
+          pri4: { label: 'Primary PS4', price: 200, oldPrice: null, available: true },
+          sec:  { label: 'Secondary', price: 150, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        note: 'Cinematic narrative featuring full professional Arabic voice dubbing & text.'
+      }
+    ];
+
+    // PS PLUS DATA
+    const PSPLUS_DATA = [
+      {
+        id: 'plus-ess-1m',
+        title: 'PS Plus Essential - 1 Month',
+        arabicTitle: 'اشتراك شهر واحد (Essential)',
+        tier: 'ESSENTIAL',
+        duration: '1 Month',
+        badge: 'بداية سريعة ⚡',
+        borderClass: 'border-amber-400/50',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 450, oldPrice: 500, available: true },
+          pri4: { label: 'Primary PS4', price: 125, oldPrice: 175, available: true },
+          sec:  { label: 'Secondary', price: 75, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        features: 'Online Multiplayer + Monthly Free Games + Cloud Storage'
+      },
+      {
+        id: 'plus-ess-3m',
+        title: 'PS Plus Essential - 3 Months',
+        arabicTitle: 'اشتراك 3 شهور (Essential)',
+        tier: 'ESSENTIAL',
+        duration: '3 Months',
+        badge: 'توفير ممتاز 💰',
+        borderClass: 'border-amber-400/60',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 950, oldPrice: null, available: true },
+          pri4: { label: 'Primary PS4', price: 300, oldPrice: 400, available: true },
+          sec:  { label: 'Secondary', price: 200, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        features: '90 Days of Online Play + Monthly PlayStation Plus Games'
+      },
+      {
+        id: 'plus-ess-12m',
+        title: 'PS Plus Essential - 12 Months',
+        arabicTitle: 'اشتراك سنة كاملة (Essential)',
+        tier: 'ESSENTIAL',
+        duration: '12 Months',
+        badge: 'الأكثر مبيعاً في مصر 🔥',
+        borderClass: 'border-amber-400',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1800, oldPrice: 2000, available: true },
+          pri4: { label: 'Primary PS4', price: 500, oldPrice: 650, available: true },
+          sec:  { label: 'Secondary', price: 350, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        features: 'Full 365 Days Online Multiplayer + 36+ Monthly Free Games'
+      },
+      {
+        id: 'plus-ext-1m',
+        title: 'PS Plus Extra - 1 Month',
+        arabicTitle: 'إكسترا شهر واحد (Extra Catalog)',
+        tier: 'EXTRA',
+        duration: '1 Month',
+        badge: 'مئات الألعاب مجاناً 🎮',
+        borderClass: 'border-neon-purple/60',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 600, oldPrice: null, available: true },
+          pri4: { label: 'Primary PS4', price: 200, oldPrice: null, available: true  },
+          sec:  { label: 'Secondary', price: 125, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        features: 'Includes 400+ PS4 & PS5 Game Catalog + Ubisoft+ Classics'
+      },
+      {
+        id: 'plus-ext-3m',
+        title: 'PS Plus Extra - 3 Months',
+        arabicTitle: 'إكسترا 3 شهور (Extra Catalog)',
+        tier: 'EXTRA',
+        duration: '3 Months',
+        badge: 'باقة المحترفين 🌟',
+        borderClass: 'border-neon-purple/80',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 1250, oldPrice: null, available: true },
+          pri4: { label: 'Primary PS4', price: 450, oldPrice: null, available: true },
+          sec:  { label: 'Secondary', price: 200, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        features: '3 Full Months of Huge Game Catalog + Online Multiplayer'
+      },
+      {
+        id: 'plus-ext-12m',
+        title: 'PS Plus Extra - 12 Months',
+        arabicTitle: 'إكسترا سنة كاملة (Extra Catalog)',
+        tier: 'EXTRA',
+        duration: '12 Months',
+        badge: 'أقوى اشتراك سنوي 👑',
+        borderClass: 'border-neon-light',
+        slots: {
+          pri5: { label: 'Primary PS5', price: 3000, oldPrice: 3100, available: true },
+          pri4: { label: 'Primary PS4', price: 800, oldPrice: null, avalablee: true },
+          sec:  { label: 'Secondary', price: 450, oldPrice: null, available: true }
+        },
+        defaultSlot: 'pri5',
+        features: 'Save 200 EGP on PS5! 400+ Blockbuster Titles on demand for 1 Year'
+      }
+    ];
+
+    // 7 BUNDLES DATA (WITH HIGH QUALITY REALISTIC ARTWORK)
+    const BUNDLES_DATA = [
+      {
+        id: 'bundle-1-giants',
+        title: 'باقة العمالقة (GTA VI + PS Plus 12M)',
+        subtitle: 'احجز باقة العمالقة من LEVEL UP ZONE وابدأ اللعب فوراً! 👑',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'GTA VI Standard Edition (Primary PS5)',
+          'PS Plus Essential - 12 Months (Primary PS5)'
+        ],
+        price: 3700,
+        oldPrice: 4000,
+        available: true,
+        badge: 'باقة العمالقة 👑',
+        borderClass: 'border-neon-purple'
+      },
+      {
+        id: 'bundle-2-golden-ps4',
+        title: 'عرض العودة للجيل الذهبي 🎮 (PS4)',
+        subtitle: 'عرض لفترة محدودة لعشاق البلايستيشن 4 من LEVEL UP ZONE 🇪🇬',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'EA Sports FC 27 (Primary Standard PS4)',
+          'PS Plus Essential - 12 Months (Primary PS4)'
+        ],
+        price: 800,
+        oldPrice: 1050,
+        available: true,
+        badge: 'عرض لفترة محدودة! ⏳',
+        borderClass: 'border-amber-400'
+      },
+      {
+        id: 'bundle-3-trio-ps5',
+        title: 'الباندل الشامل الأقوى (Ultimate PS5)',
+        subtitle: 'أقوى 3 ألعاب واشتراكات على PS5 بحسابات Primary وخصم 500 جنيه!',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'PS Plus Essential 12 Months (Primary PS5)',
+          'GTA VI Standard Edition (Primary PS5)',
+          'EA Sports FC 27 (Primary Standard PS5)'
+        ],
+        price: 5200,
+        oldPrice: 5700,
+        available: true,
+        badge: 'وفر 500 جنيه 💥',
+        borderClass: 'border-amber-400'
+      },
+      {
+        id: 'bundle-4-duo-ps5',
+        title: 'العرض الثنائي المدمر ⚡ (Mega PS5)',
+        subtitle: 'أقوى لعبتين في العالم على بلايستيشن 5 بحسابات Primary رئيسية!',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'GTA VI (Primary Standard PS5)',
+          'EA Sports FC 27 (Primary Standard PS5)'
+        ],
+        price: 3699,
+        oldPrice: 3900,
+        available: true,
+        badge: 'العرض الثنائي المدمر 🔥',
+        borderClass: 'border-neon-purple'
+      },
+      {
+        id: 'bundle-5-stadium-pri',
+        title: 'باقة الملعب  (FC 27 + Plus 12M)',
+        subtitle: 'انزل الملعب واصنع الأسطورة بحسابات Primary معتمدة! ⚽',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'EA Sports FC 27 - Standard (Primary)',
+          'PlayStation Plus Essential - 12M (Primary)'
+        ],
+        price: 3299,
+        oldPrice: 3500,
+        available: true,
+        badge: 'باقة الأساطير 🏆',
+        borderClass: 'border-purple-400/60'
+      },
+      {
+        id: 'bundle-6-stadium-sec',
+        title: 'باقة الملعب التوفيرية (FC 27 Pri + Plus)',
+        subtitle: 'انزل الملعب واصنع الأسطورة بأقوى سعر توفيري في مصر! 🎯',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'EA Sports FC 27 - Standard (Primary)',
+          'PlayStation Plus Essential - 12M (Secondary)'
+        ],
+        price: 1850,
+        oldPrice: 2050,
+        available: true,
+        badge: 'أقوى توفير للملعب ⚽',
+        borderClass: 'border-emerald-400/60'
+      },
+      {
+        id: 'bundle-7-gta-sec',
+        title: 'باقة GTA VI الاقتصادية (GTA Pri + Plus)',
+        subtitle: 'GTA VI Primary مع اشتراك بلس سنة كاملة Secondary بسعر اقتصادي ممتاز!',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzC3xnjPQJoG_7ivNckL4Lhf7dXZ-Ce2rcICCMB6HHA&s=10',
+        includes: [
+          'GTA VI Standard Edition (Primary PS5)',
+          'PS Plus Essential - 12 Months (Secondary)'
+        ],
+        price: 2350,
+        oldPrice: 2550,
+        available: true,
+        badge: 'سعر استثنائي 🌴',
+        borderClass: 'border-emerald-400/60'
+      }
+    ];
+// STATE FOR SERVICES
+    const activeServiceSlots = {};
+
+// 7 DIGITAL SERVICES & SUBSCRIPTIONS WITH DYNAMIC TIER OPTIONS
+    const SERVICES_DATA = [
+      {
+        id: 'fortnite-crew',
+        title: 'Fortnite Crew',
+        tag: 'حسابك مفعل في دقايق',
+        category: 'Subscriptions',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7GOjBegCs6l8Uz9SDkjA_66j1cCkLVxVNffn78Yr-g&s=10',
+        note: '  يحتاج ايميل و باسورد و يحتوي علي كل الجوايز',
+        defaultSlot: '1m',
+        slots: {
+          '1m': { label: '1 Month', price: 200, oldPrice: 250, available: true },
+        }
+      },
+      {
+        id: 'chatgpt-plus',
+        title: 'ChatGPT Plus (GPT-4o & DALL-E)',
+        tag: 'حساب خاص مفعل 🤖',
+        category: 'AI Tools',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSoV88QwKgUxfUMIEkx_hVmFHwleqKi-6rhty5o2T9Bg&s=10',
+        note: 'وصول كامل ومستمر لـ GPT-4o وتوليد الصور والملفات بدون انقطاع.',
+        defaultSlot: '1m',
+        slots: {
+          '1m': { label: '1 Month', price: 650, oldPrice: 900, available: true },
+          '3m': { label: '3 Months', price: 850, oldPrice: 999, available: true }
+        }
+      },
+      {
+        id: 'canva-pro',
+        title: 'Canva Pro (كانفا برو)',
+        tag: 'حساب رسمي ومميزات كاملة 🎨',
+        category: 'Design Tools',
+        image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&auto=format&fit=crop&q=80',
+        note: 'اشتراك كانفا برو بكامل الميزات: قوالب مدفوعة، إزالة الخلفيات، وMagic Studio بجودة فائقة.',
+        defaultSlot: '1m',
+        slots: {
+          '1m': { label: '1 Month', price: 40, oldPrice: 80, available: true },
+          '6m': { label: '6 Months', price: 100, oldPrice: 200, available: true },
+          '12m': { label: '1 Year', price: 150, oldPrice: 250, available: true }
+        }
+      },
+      {
+        id: 'gemini-advanced',
+        title: 'Google Gemini Advanced (1.5 Pro)',
+        tag: 'أقوى ذكاء اصطناعي ⚡',
+        category: 'AI Tools',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyO3lDLMlGaVq6Re5uxFBrF_8w5aq8xUzVMj__9Q1HDg&s=10',
+        note: 'اشتراك رسمي مدمج مع سعة 2 تيرابايت Google One وميزات سحابية فائقة.',
+        defaultSlot: '6m',
+        slots: {
+          '1m': { label: '1 Month Pro', price: 250, oldPrice: 350, available: true },
+          '4m': { label: '4 Months Pro', price: 450, oldPrice: 700, available: true },
+          '6m': { label: '6 Months Plus', price: 200, oldPrice: 350, available: true },
+          '12m': { label: '1 Year Plus', price: 400, oldPrice: 750, available: true}
+        }
+      },
+      {
+        id: 'iptv-smarters',
+        title: 'IPTV Subscription',
+        tag: 'جميع المباريات بدون تقطيع ⚽',
+        category: 'Live TV & Movies',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAP6VPwTnbSFJpAZuXk0pDHVm04jEplhmsOkMP5x7DHg&s=10',
+        note: 'باقات beIN Sports وجميع قنوات الأفلام والمسلسلات بجودة 4K/FHD فائقة الثبات.',
+        defaultSlot: '12m',
+        slots: {
+          '12m cheap': { label: '1 Year economic', price: 450, oldPrice: 500, available: true },
+          '12m lite': { label: '1 Year lite', price: 550, oldPrice: 600, available: true },
+          '12m': { label: '1 Year (VIP)', price: 600, oldPrice: 700, available:true }
+        }
+      },
+      {
+        id: 'instagram-followers',
+        title: 'دعم انستجرام (Instagram Followers)',
+        tag: 'زيادة متابعين مضمونة 📸',
+        category: 'Social Growth',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjum8eN0zLYEiwUygi0O07R6hK3Hv2C4BNtD5f4TiIhQ&s=10',
+        note: 'متابعين حقيقيين مع ضمان ثبات وتوصيل عبر رابط الحساب فقط وبدون كلمة سر.',
+        defaultSlot: '1k',
+        slots: {
+          '1k': { label: '1,000 Followers', price: 200, oldPrice: 300, available: true },
+          '2k': { label: '2,000 Followers', price: 370, oldPrice: 470, available: true },
+          '5k': { label: '5,000 Followers', price: 850, oldPrice: 999, available: true }
+        }
+      },
+      {
+        id: 'tiktok-growth',
+        title: 'دعم تيك توك (TikTok Followers)',
+        tag: 'دخول اكسبلور سريع 🎵',
+        category: 'Social Growth',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRILKy0x3PjBWlDlebBdZC8f5n_-CSoWqxc003YRowonA&s=10',
+        note: 'متابعين ومشاهدات لفتح شروط اللايف والربح ودعم ظهور الفيديوهات بأمان.',
+        defaultSlot: '1k',
+        slots: {
+          '1k': { label: '1,000 Followers', price: 200, oldPrice: 300, available: true },
+          '3k': { label: '3,000 Followers', price: 500, oldPrice: 600, available: true },
+          '5k': { label: '5,000 Followers', price: 750, oldPrice: 900 , available:true }
+        }
+      },
+      {
+        id: 'facebook-page',
+        title: '  فولورز فيسبوك (Facebook Followers)',
+        tag: 'توثيق فولورز بيجات 🌐',
+        category: 'Social Growth',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvYVnNGVWtk7owdTUGvC3tYbX6mp5MH2id-a-PMLpIWQ&s=10',
+        note: 'متابعين ولايكات لصفحات وجروبات فيسبوك بجودة عالية وتسليم سريع عبر رابط الصفحة فقط.',
+        defaultSlot: '1k',
+        slots: {
+          '1k': { label: '1,000 Likes/Follows', price: 55, oldPrice: 120, available: true },
+          '3k': { label: '3,000 Likes/Follows', price: 100, oldPrice: 320, available: true },
+          '5k': { label: '5,000 Likes/Follows', price: 125, oldPrice: 500, available: true }
+        }
+      }
+    ];
+
+    SERVICES_DATA.forEach(s => { activeServiceSlots[s.id] = s.defaultSlot; });
+    // STATE
+    const activeGameSlots = {};
+    const activePlusSlots = {};
+    let currentGameFilter = 'all';
+    let currentSearchQuery = '';
+    let shoppingCart = [];
+
+    GAMES_DATA.forEach(g => { activeGameSlots[g.id] = g.defaultSlot; });
+    PSPLUS_DATA.forEach(p => { activePlusSlots[p.id] = p.defaultSlot; });
+// 1. RENDER ALL GAMES
+    function renderGames() {
+      const grid = document.getElementById('gamesGrid');
+      if (!grid) return;
+
+      const filtered = GAMES_DATA.filter(game => {
+        const matchGroup = currentGameFilter === 'all' || game.filterGroup === currentGameFilter;
+        const matchQuery = !currentSearchQuery ||
+          game.title.toLowerCase().includes(currentSearchQuery.toLowerCase()) ||
+          game.arabicTag.toLowerCase().includes(currentSearchQuery.toLowerCase());
+        return matchGroup && matchQuery;
+      });
+
+      grid.innerHTML = filtered.map(game => {
+        const slotKey = activeGameSlots[game.id] || game.defaultSlot;
+        const slotObj = game.slots[slotKey];
+        const isPrimary = slotKey === 'pri5' || slotKey === 'pri4';
+        const slotCount = Object.keys(game.slots).length;
+        const isAvailable = slotObj.available !== false;
+
+        return `
+          <div class="slate-card rounded-3xl overflow-hidden flex flex-col justify-between ${!isAvailable ? 'opacity-95' : ''}">
+            <div>
+              <div class="relative h-48 p-4 flex flex-col justify-between border-b border-purple-500/30 overflow-hidden">
+                <img 
+                  src="${game.image}" 
+                  alt="${game.title}" 
+                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105 ${!isAvailable ? 'grayscale-[35%]' : ''}"
+                  onerror="this.src='https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80'"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/50 to-black/40"></div>
+
+                <div class="relative z-10 flex items-center justify-between gap-2">
+                  <span class="px-3 py-1 rounded-full text-[11px] font-black bg-obsidian/90 border border-purple-400/50 text-white backdrop-blur-md">
+                    ${game.platforms}
+                  </span>
+                  <span dir="rtl" class="font-arabic px-3 py-1 rounded-full text-[11px] font-black bg-amber-400 text-black shadow">
+                    ${game.arabicTag}
+                  </span>
+                </div>
+
+                <div class="relative z-10">
+                  <span class="text-[10px] font-extrabold uppercase tracking-widest text-purple-300 block">LEVEL UP ZONE</span>
+                  <h3 class="text-lg font-display font-black text-white leading-tight drop-shadow-md">${game.title}</h3>
+                </div>
+              </div>
+
+              <div class="p-5 space-y-4">
+                <p class="text-xs text-slate-300 leading-relaxed">${game.note}</p>
+
+                <div>
+                  <span class="block text-[10px] font-black uppercase tracking-wider text-purple-300 mb-1.5">
+                    Choose Account Slot:
+                  </span>
+                  <div class="grid grid-cols-${slotCount} gap-1.5">
+                    ${Object.entries(game.slots).map(([k, s]) => {
+                      const active = k === slotKey;
+                      const inStock = s.available !== false;
+                      return `
+                        <button 
+                          type="button"
+                          onclick="selectGameSlot('${game.id}', '${k}')"
+                          class="py-2 px-2 rounded-xl text-[11px] font-black border transition flex flex-col items-center justify-center ${
+                            active 
+                              ? (inStock ? 'bg-neon-purple text-white border-white shadow-neon-xs' : 'bg-rose-950/80 text-rose-300 border-rose-500')
+                              : (inStock ? 'bg-obsidian text-slate-300 border-purple-500/30 hover:border-purple-400' : 'bg-obsidian/60 text-slate-500 border-slate-800 line-through')
+                          }"
+                        >
+                          <span>${s.label}</span>
+                          <span class="text-[10px] ${active ? (inStock ? 'text-amber-200' : 'text-rose-200') : 'text-purple-300'}">
+                            ${inStock ? `${s.price} EGP` : 'Sold Out'}
+                          </span>
+                        </button>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+
+                <div class="p-2.5 rounded-xl ${isPrimary ? 'bg-amber-950/75 border border-amber-400/50 text-amber-200' : 'bg-purple-950/60 border border-purple-500/35 text-purple-200'} text-[11px] flex items-center gap-2">
+                  <i class="fa-solid ${isPrimary ? 'fa-triangle-exclamation text-amber-400' : 'fa-circle-info text-neon-light'} shrink-0"></i>
+                  <span>
+                    ${isPrimary 
+                      ? '<strong>Primary:</strong> Activate or Enable The Account then Log Out ONLY — NEVER Sign Out (Log Out فقط).' 
+                      : '<strong>Secondary:</strong> Play directly from the delivered account dont enable or activate the account.'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="px-5 pb-5 pt-2 border-t border-purple-500/20">
+              <div class="p-3.5 rounded-2xl bg-obsidian border ${isAvailable ? 'border-purple-500/35' : 'border-rose-500/40'} flex items-center justify-between mb-3">
+                <div>
+                  <span class="block text-[10px] uppercase font-bold text-purple-300">${slotObj.label}</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-2xl font-display font-black text-white">${slotObj.price.toLocaleString()} EGP</span>
+                    ${slotObj.oldPrice ? `<span class="text-xs text-rose-400 line-through font-bold">was ${slotObj.oldPrice.toLocaleString()} EGP</span>` : ''}
+                  </div>
+                </div>
+                ${!isAvailable ? `
+                  <span class="px-2.5 py-1 rounded-lg bg-rose-950/90 border border-rose-500 text-rose-300 text-[10px] font-black uppercase tracking-wider">
+                    غير متوفر • Sold Out
+                  </span>
+                ` : (slotObj.oldPrice ? `
+                  <span class="px-2.5 py-1 rounded-lg bg-rose-600/25 border border-rose-500/40 text-rose-300 text-[10px] font-black">
+                    Save ${slotObj.oldPrice - slotObj.price} EGP
+                  </span>
+                ` : '')}
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                ${isAvailable ? `
+                  <button 
+                    type="button"
+                    onclick="addGameToCart('${game.id}')"
+                    class="py-3 px-3 rounded-xl bg-gradient-to-r from-neon-violet to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-xs shadow-neon-xs transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                  </button>
+                  <button 
+                    type="button"
+                    onclick="whatsappGameDirect('${game.id}')"
+                    class="py-3 px-3 rounded-xl bg-emerald-600/25 hover:bg-emerald-600 text-emerald-200 hover:text-white font-black text-xs border border-emerald-500/40 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+                  </button>
+                ` : `
+                  <button 
+                    type="button" 
+                    disabled 
+                    class="py-3 px-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-500 font-black text-xs cursor-not-allowed flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-ban"></i> Sold Out
+                  </button>
+                  <button 
+                    type="button" 
+                    onclick="whatsappRestockInquiry('${game.title}', '${slotObj.label}')" 
+                    class="py-3 px-3 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 font-black text-xs border border-purple-500/30 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> Restock?
+                  </button>
+                `}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 2. RENDER PS PLUS
+    function renderPsPlus() {
+      const grid = document.getElementById('psPlusGrid');
+      if (!grid) return;
+
+      grid.innerHTML = PSPLUS_DATA.map(plan => {
+        const slotKey = activePlusSlots[plan.id] || plan.defaultSlot;
+        const slotObj = plan.slots[slotKey];
+        const isExtra = plan.tier === 'EXTRA';
+        const isAvailable = slotObj.available !== false;
+
+        return `
+          <div class="slate-card rounded-3xl p-6 border-2 ${plan.borderClass} flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="px-3 py-1 rounded-full text-[11px] font-black uppercase ${isExtra ? 'bg-neon-purple text-white' : 'bg-amber-400 text-black'}">
+                  PS PLUS ${plan.tier} • ${plan.duration}
+                </span>
+                <span dir="rtl" class="font-arabic text-xs font-bold text-amber-300">${plan.badge}</span>
+              </div>
+
+              <h3 class="text-xl font-display font-black text-white">${plan.title}</h3>
+              <p dir="rtl" class="font-arabic text-sm font-bold text-purple-200 mt-0.5 text-right">${plan.arabicTitle}</p>
+              <p class="text-xs text-slate-400 mt-2">${plan.features}</p>
+
+              <div class="mt-4">
+                <span class="block text-[10px] font-black uppercase tracking-wider text-purple-300 mb-1.5">
+                  Select Subscription Slot:
+                </span>
+                <div class="grid grid-cols-3 gap-1.5">
+                  ${Object.entries(plan.slots).map(([k, s]) => {
+                    const active = k === slotKey;
+                    const inStock = s.available !== false;
+                    return `
+                      <button 
+                        type="button"
+                        onclick="selectPlusSlot('${plan.id}', '${k}')"
+                        class="py-2 px-1.5 rounded-xl text-[11px] font-black border transition flex flex-col items-center justify-center ${
+                          active 
+                            ? (inStock ? 'bg-amber-400 text-black border-white shadow-gold-sm' : 'bg-rose-950 text-rose-300 border-rose-500')
+                            : (inStock ? 'bg-obsidian text-slate-300 border-purple-500/30 hover:border-amber-400' : 'bg-obsidian/60 text-slate-500 border-slate-800 line-through')
+                        }"
+                      >
+                        <span>${s.label}</span>
+                        <span class="text-[10px] ${active ? (inStock ? 'text-black font-black' : 'text-rose-200') : 'text-amber-300'}">
+                          ${inStock ? `${s.price} EGP` : 'Sold Out'}
+                        </span>
+                      </button>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-purple-500/25">
+              <div class="p-3.5 rounded-2xl bg-obsidian border ${isAvailable ? 'border-amber-400/40' : 'border-rose-500/40'} flex items-center justify-between mb-3">
+                <div>
+                  <span class="block text-[10px] uppercase font-bold text-amber-300">${slotObj.label}</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-2xl font-display font-black text-white">${slotObj.price.toLocaleString()} EGP</span>
+                    ${slotObj.oldPrice ? `<span class="text-xs text-rose-400 line-through font-bold">was ${slotObj.oldPrice.toLocaleString()} EGP</span>` : ''}
+                  </div>
+                </div>
+                ${!isAvailable ? `
+                  <span class="px-2.5 py-1 rounded-lg bg-rose-950/90 border border-rose-500 text-rose-300 text-[10px] font-black uppercase tracking-wider">
+                    Sold Out
+                  </span>
+                ` : `<i class="fa-solid fa-plus text-2xl text-amber-400"></i>`}
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                ${isAvailable ? `
+                  <button 
+                    type="button"
+                    onclick="addPlusToCart('${plan.id}')"
+                    class="py-3 px-3 rounded-xl bg-amber-400 hover:bg-amber-300 text-black font-black text-xs shadow-gold-sm transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                  </button>
+                  <button 
+                    type="button"
+                    onclick="whatsappPlusDirect('${plan.id}')"
+                    class="py-3 px-3 rounded-xl bg-emerald-600/25 hover:bg-emerald-600 text-emerald-200 hover:text-white font-black text-xs border border-emerald-500/40 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+                  </button>
+                ` : `
+                  <button 
+                    type="button" 
+                    disabled 
+                    class="py-3 px-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-500 font-black text-xs cursor-not-allowed flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-ban"></i> Sold Out
+                  </button>
+                  <button 
+                    type="button" 
+                    onclick="whatsappRestockInquiry('${plan.title}', '${slotObj.label}')" 
+                    class="py-3 px-3 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 font-black text-xs border border-purple-500/30 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> Restock?
+                  </button>
+                `}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 3. RENDER ALL MEGA BUNDLES
+    function renderBundles() {
+      const grid = document.getElementById('bundlesGrid');
+      if (!grid) return;
+
+      grid.innerHTML = BUNDLES_DATA.map(bundle => {
+        const isAvailable = bundle.available !== false;
+
+        return `
+          <div class="slate-card rounded-3xl overflow-hidden flex flex-col justify-between border-2 ${bundle.borderClass}">
+            <div>
+              <div class="relative h-44 p-4 flex flex-col justify-between overflow-hidden">
+                <img 
+                  src="${bundle.image}" 
+                  alt="${bundle.title}" 
+                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105 ${!isAvailable ? 'grayscale-[35%]' : ''}"
+                  onerror="this.src='https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80'"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-black/40"></div>
+
+                <div class="relative z-10 flex items-center justify-between gap-2">
+                  <span dir="rtl" class="font-arabic px-3 py-1 rounded-full text-xs font-black bg-amber-400 text-black shadow">
+                    ${bundle.badge}
+                  </span>
+                  <span class="text-[10px] font-mono font-bold text-white bg-obsidian/80 px-2.5 py-1 rounded-full border border-purple-500/40 uppercase">
+                    MEGA BUNDLE
+                  </span>
+                </div>
+
+                <div class="relative z-10">
+                  <h3 dir="rtl" class="font-arabic text-lg sm:text-xl font-black text-white leading-snug drop-shadow-md text-right">
+                    ${bundle.title}
+                  </h3>
+                </div>
+              </div>
+
+              <div class="p-5 space-y-3">
+                <p dir="rtl" class="font-arabic text-xs text-slate-300 text-right leading-relaxed">
+                  ${bundle.subtitle}
+                </p>
+
+                <div class="pt-2 border-t border-purple-500/25 space-y-2">
+                  <span class="block text-[10px] font-black uppercase tracking-wider text-purple-300">
+                    Bundle Contents (المحتويات):
+                  </span>
+                  ${bundle.includes.map(item => `
+                    <div class="flex items-center gap-2 text-xs font-bold text-white bg-obsidian/80 p-2.5 rounded-xl border border-purple-500/25">
+                      <i class="fa-solid fa-circle-check text-emerald-400 shrink-0"></i>
+                      <span>${item}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+
+            <div class="px-5 pb-5 pt-2 border-t border-purple-500/25">
+              <div class="p-3.5 rounded-2xl bg-obsidian border ${isAvailable ? 'border-purple-500/40' : 'border-rose-500/40'} flex items-center justify-between mb-3.5">
+                <div>
+                  <span class="block text-[10px] uppercase font-bold text-slate-400">Total Bundle Price</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-2xl font-display font-black text-amber-300">${bundle.price.toLocaleString()} EGP</span>
+                    ${bundle.oldPrice ? `<span class="text-xs text-rose-400 line-through font-bold">was ${bundle.oldPrice.toLocaleString()} EGP</span>` : ''}
+                  </div>
+                </div>
+                ${!isAvailable ? `
+                  <span class="px-2.5 py-1 rounded-lg bg-rose-950/90 border border-rose-500 text-rose-300 text-[10px] font-black uppercase tracking-wider">
+                    Sold Out
+                  </span>
+                ` : `
+                  <span class="px-2.5 py-1 rounded-lg bg-emerald-950 text-emerald-300 border border-emerald-500/30 text-[10px] font-bold">
+                    تفعيل فوري ⚡
+                  </span>
+                `}
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                ${isAvailable ? `
+                  <button 
+                    type="button"
+                    onclick="addBundleToCart('${bundle.id}')"
+                    class="py-3 px-3 rounded-xl bg-gradient-to-r from-neon-violet to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-xs shadow-neon-xs transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-cart-plus"></i> Add Bundle
+                  </button>
+                  <button 
+                    type="button"
+                    onclick="whatsappBundleDirect('${bundle.id}')"
+                    class="py-3 px-3 rounded-xl bg-emerald-600/25 hover:bg-emerald-600 text-emerald-200 hover:text-white font-black text-xs border border-emerald-500/40 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+                  </button>
+                ` : `
+                  <button 
+                    type="button" 
+                    disabled 
+                    class="py-3 px-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-500 font-black text-xs cursor-not-allowed flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-ban"></i> Sold Out
+                  </button>
+                  <button 
+                    type="button" 
+                    onclick="whatsappRestockInquiry('${bundle.title}', 'Official Bundle')" 
+                    class="py-3 px-3 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 font-black text-xs border border-purple-500/30 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> Restock?
+                  </button>
+                `}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectServiceSlot(serviceId, slotKey) {
+      activeServiceSlots[serviceId] = slotKey;
+      renderServices();
+    }
+
+    // 4. RENDER SERVICES & SUBSCRIPTIONS
+    function renderServices() {
+      const grid = document.getElementById('servicesGrid');
+      if (!grid) return;
+
+      grid.innerHTML = SERVICES_DATA.map(srv => {
+        const slotKey = activeServiceSlots[srv.id] || srv.defaultSlot;
+        const slotObj = srv.slots[slotKey];
+        const slotCount = Object.keys(srv.slots).length;
+        const isAvailable = slotObj.available !== false;
+
+        return `
+          <div class="slate-card rounded-3xl overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="relative h-48 p-4 flex flex-col justify-between border-b border-purple-500/30 overflow-hidden">
+                <img 
+                  src="${srv.image}" 
+                  alt="${srv.title}" 
+                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105 ${!isAvailable ? 'grayscale-[35%]' : ''}"
+                  onerror="this.src='https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80'"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/50 to-black/40"></div>
+
+                <div class="relative z-10 flex items-center justify-between gap-2">
+                  <span class="px-3 py-1 rounded-full text-[11px] font-black bg-obsidian/90 border border-purple-400/50 text-white backdrop-blur-md">
+                    ${srv.category}
+                  </span>
+                  <span dir="rtl" class="font-arabic px-3 py-1 rounded-full text-[11px] font-black bg-amber-400 text-black shadow">
+                    ${srv.tag}
+                  </span>
+                </div>
+
+                <div class="relative z-10">
+                  <span class="text-[10px] font-extrabold uppercase tracking-widest text-purple-300 block">LEVEL UP ZONE</span>
+                  <h3 class="text-lg font-display font-black text-white leading-tight drop-shadow-md">${srv.title}</h3>
+                </div>
+              </div>
+
+              <div class="p-5 space-y-4">
+                <p dir="rtl" class="font-arabic text-xs text-slate-300 leading-relaxed text-right">${srv.note}</p>
+
+                <div>
+                  <span class="block text-[10px] font-black uppercase tracking-wider text-purple-300 mb-1.5">
+                    Select Plan / Quantity:
+                  </span>
+                  <div class="grid grid-cols-${slotCount} gap-1.5">
+                    ${Object.entries(srv.slots).map(([k, s]) => {
+                      const active = k === slotKey;
+                      const inStock = s.available !== false;
+                      return `
+                        <button 
+                          type="button"
+                          onclick="selectServiceSlot('${srv.id}', '${k}')"
+                          class="py-2 px-1.5 rounded-xl text-[11px] font-black border transition flex flex-col items-center justify-center ${
+                            active 
+                              ? (inStock ? 'bg-neon-purple text-white border-white shadow-neon-xs' : 'bg-rose-950/80 text-rose-300 border-rose-500')
+                              : (inStock ? 'bg-obsidian text-slate-300 border-purple-500/30 hover:border-purple-400' : 'bg-obsidian/60 text-slate-500 border-slate-800 line-through')
+                          }"
+                        >
+                          <span class="truncate w-full text-center">${s.label}</span>
+                          <span class="text-[10px] ${active ? (inStock ? 'text-amber-200' : 'text-rose-200') : 'text-purple-300'}">
+                            ${inStock ? `${s.price} EGP` : 'Sold Out'}
+                          </span>
+                        </button>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-purple-950/60 border border-purple-500/35 text-purple-200 text-[11px] flex items-center gap-2">
+                  <i class="fa-solid fa-bolt text-neon-light shrink-0"></i>
+                  <span>تفعيل رسمي وتسليم سريع في خلال 24 ساعه عبر واتساب بعد التحويل.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="px-5 pb-5 pt-2 border-t border-purple-500/20">
+              <div class="p-3.5 rounded-2xl bg-obsidian border ${isAvailable ? 'border-purple-500/35' : 'border-rose-500/40'} flex items-center justify-between mb-3">
+                <div>
+                  <span class="block text-[10px] uppercase font-bold text-purple-300">${slotObj.label}</span>
+                  <div class="flex items-baseline gap-2">
+                    <span class="text-2xl font-display font-black text-white">${slotObj.price.toLocaleString()} EGP</span>
+                    ${slotObj.oldPrice ? `<span class="text-xs text-rose-400 line-through font-bold">was ${slotObj.oldPrice.toLocaleString()} EGP</span>` : ''}
+                  </div>
+                </div>
+                ${!isAvailable ? `
+                  <span class="px-2.5 py-1 rounded-lg bg-rose-950/90 border border-rose-500 text-rose-300 text-[10px] font-black uppercase tracking-wider">
+                    غير متوفر • Sold Out
+                  </span>
+                ` : (slotObj.oldPrice ? `
+                  <span class="px-2.5 py-1 rounded-lg bg-rose-600/25 border border-rose-500/40 text-rose-300 text-[10px] font-black">
+                    Save ${slotObj.oldPrice - slotObj.price} EGP
+                  </span>
+                ` : '')}
+              </div>
+
+              <div class="grid grid-cols-2 gap-2">
+                ${isAvailable ? `
+                  <button 
+                    type="button"
+                    onclick="addServiceToCart('${srv.id}')"
+                    class="py-3 px-3 rounded-xl bg-gradient-to-r from-neon-violet to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-xs shadow-neon-xs transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-cart-plus"></i> Add to Cart
+                  </button>
+                  <button 
+                    type="button"
+                    onclick="whatsappServiceDirect('${srv.id}')"
+                    class="py-3 px-3 rounded-xl bg-emerald-600/25 hover:bg-emerald-600 text-emerald-200 hover:text-white font-black text-xs border border-emerald-500/40 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+                  </button>
+                ` : `
+                  <button 
+                    type="button" 
+                    disabled 
+                    class="py-3 px-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-500 font-black text-xs cursor-not-allowed flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-solid fa-ban"></i> Sold Out
+                  </button>
+                  <button 
+                    type="button" 
+                    onclick="whatsappRestockInquiry('${srv.title}', '${slotObj.label}')" 
+                    class="py-3 px-3 rounded-xl bg-purple-950/60 hover:bg-purple-900 text-purple-200 font-black text-xs border border-purple-500/30 transition flex items-center justify-center gap-1.5"
+                  >
+                    <i class="fa-brands fa-whatsapp text-sm"></i> Restock?
+                  </button>
+                `}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function whatsappServiceDirect(serviceId) {
+      const srv = SERVICES_DATA.find(s => s.id === serviceId);
+      if (!srv) return;
+      const slotKey = activeServiceSlots[serviceId] || srv.defaultSlot;
+      const slot = srv.slots[slotKey];
+
+      const lines = [
+        '🚀 *DIGITAL SERVICE ORDER — LEVEL UP ZONE* 🇪🇬',
+        '▫️ *Service:* ' + srv.title,
+        '▫️ *Package:* ' + slot.label,
+        '💰 *Price:* ' + slot.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappGameDirect(gameId) {
+      const game = GAMES_DATA.find(g => g.id === gameId);
+      if (!game) return;
+      const slotKey = activeGameSlots[gameId] || game.defaultSlot;
+      const slot = game.slots[slotKey];
+
+      const lines = [
+        '🎮 *INSTANT GAME ORDER — LEVEL UP ZONE* 🇪🇬',
+        '▫️ *Game:* ' + game.title,
+        '▫️ *Slot:* ' + slot.label,
+        '💰 *Price:* ' + slot.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappPlusDirect(planId) {
+      const plan = PSPLUS_DATA.find(p => p.id === planId);
+      if (!plan) return;
+      const slotKey = activePlusSlots[planId] || plan.defaultSlot;
+      const slot = plan.slots[slotKey];
+
+      const lines = [
+        '👑 *PS PLUS ORDER — LEVEL UP ZONE* 🎮',
+        '▫️ *Plan:* ' + plan.title,
+        '▫️ *Slot:* ' + slot.label,
+        '💰 *Price:* ' + slot.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappBundleDirect(bundleId) {
+      const bundle = BUNDLES_DATA.find(b => b.id === bundleId);
+      if (!bundle) return;
+
+      const lines = [
+        '🔥 *OFFICIAL BUNDLE ORDER — LEVEL UP ZONE* 🇪🇬',
+        '▫️ *Bundle:* ' + bundle.title,
+        '▫️ *Includes:* ' + bundle.includes.join(' + '),
+        '💰 *Bundle Price:* ' + bundle.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappRestockInquiry(title, variant) {
+      const msg = 'السلام عليكم LEVEL UP ZONE، بخصوص "' + title + '" (' + variant + ')، متى ستتوفر مجدداً؟';
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(msg), '_blank');
+    }
+
+    function addServiceToCart(serviceId) {
+      const srv = SERVICES_DATA.find(s => s.id === serviceId);
+      if (!srv) return;
+      const slotKey = activeServiceSlots[serviceId] || srv.defaultSlot;
+      const slot = srv.slots[slotKey];
+
+      shoppingCart.push({
+        uid: Date.now() + Math.random(),
+        title: srv.title,
+        variant: slot.label,
+        price: slot.price
+      });
+
+      updateCartUI();
+      showNotification('Added ' + srv.title + ' (' + slot.label + ') to Cart!');
+    }
+
+    function whatsappServiceDirect(serviceId) {
+      const srv = SERVICES_DATA.find(s => s.id === serviceId);
+      if (!srv) return;
+      const slotKey = activeServiceSlots[serviceId] || srv.defaultSlot;
+      const slot = srv.slots[slotKey];
+
+      const lines = [
+        ' *DIGITAL SERVICE ORDER — LEVEL UP ZONE* 🇪🇬',
+        '▫️ *Service:* ' + srv.title,
+        '▫️ *Package:* ' + slot.label,
+        ' *Price:* ' + slot.price.toLocaleString() + ' EGP',
+        ' Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+  
+    // FILTER & SEARCH HANDLERS
+    function selectGameSlot(gameId, slotKey) {
+      activeGameSlots[gameId] = slotKey;
+      renderGames();
+    }
+
+    function selectPlusSlot(planId, slotKey) {
+      activePlusSlots[planId] = slotKey;
+      renderPsPlus();
+    }
+
+    function filterGames(group) {
+      currentGameFilter = group;
+      document.querySelectorAll('.game-filter-btn').forEach(btn => {
+        btn.className = 'game-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase bg-slate900 text-slate-300 hover:text-white border border-purple-500/30 transition';
+      });
+      const activeBtn = document.getElementById('filter-btn-' + group);
+      if (activeBtn) {
+        activeBtn.className = 'game-filter-btn px-4 py-2 rounded-xl text-xs font-black uppercase bg-neon-purple text-white shadow-neon-xs transition';
+      }
+      renderGames();
+    }
+
+    function handleGameSearch(val) {
+      currentSearchQuery = (val || '').trim();
+      renderGames();
+    }
+function addGameToCart(gameId) {
+      const game = GAMES_DATA.find(g => g.id === gameId);
+      if (!game) return;
+      const slotKey = activeGameSlots[gameId] || game.defaultSlot;
+      const slot = game.slots[slotKey];
+      if (slot.available === false) {
+        showNotification('هذا الحساب غير متوفر حالياً (Sold Out)');
+        return;
+      }
+      shoppingCart.push({ uid: Date.now() + Math.random(), title: game.title, variant: slot.label, price: slot.price });
+      updateCartUI();
+      showNotification('Added ' + game.title + ' (' + slot.label + ') to Cart!');
+    }
+
+    function addPlusToCart(planId) {
+      const plan = PSPLUS_DATA.find(p => p.id === planId);
+      if (!plan) return;
+      const slotKey = activePlusSlots[planId] || plan.defaultSlot;
+      const slot = plan.slots[slotKey];
+      if (slot.available === false) {
+        showNotification('هذا الاشتراك غير متوفر حالياً (Sold Out)');
+        return;
+      }
+      shoppingCart.push({ uid: Date.now() + Math.random(), title: plan.title, variant: slot.label, price: slot.price });
+      updateCartUI();
+      showNotification('Added ' + plan.title + ' (' + slot.label + ') to Cart!');
+    }
+
+    function addBundleToCart(bundleId) {
+      const bundle = BUNDLES_DATA.find(b => b.id === bundleId);
+      if (!bundle) return;
+      if (bundle.available === false) {
+        showNotification('هذا الباندل غير متوفر حالياً (Sold Out)');
+        return;
+      }
+      shoppingCart.push({ uid: Date.now() + Math.random(), title: bundle.title, variant: 'Official Bundle (باقة كاملة)', price: bundle.price });
+      updateCartUI();
+      showNotification('Added ' + bundle.title + ' to Cart!');
+    }
+
+    function addServiceToCart(serviceId) {
+      const srv = SERVICES_DATA.find(s => s.id === serviceId);
+      if (!srv) return;
+      const slotKey = activeServiceSlots[serviceId] || srv.defaultSlot;
+      const slot = srv.slots[slotKey];
+      if (slot.available === false) {
+        showNotification('هذه الخدمة غير متوفرة حالياً (Sold Out)');
+        return;
+      }
+      shoppingCart.push({ uid: Date.now() + Math.random(), title: srv.title, variant: slot.label, price: slot.price });
+      updateCartUI();
+      showNotification('Added ' + srv.title + ' (' + slot.label + ') to Cart!');
+    }
+    
+    function removeCartItem(uid) {
+      shoppingCart = shoppingCart.filter(item => item.uid !== uid);
+      updateCartUI();
+    }
+
+    function updateCartUI() {
+      const countEl = document.getElementById('headerCartCount');
+      const container = document.getElementById('cartItemsContainer');
+      const totalEl = document.getElementById('cartTotalDisplay');
+
+      if (countEl) countEl.textContent = shoppingCart.length;
+
+      const sum = shoppingCart.reduce((acc, item) => acc + item.price, 0);
+      if (totalEl) totalEl.textContent = sum.toLocaleString() + ' EGP';
+
+      if (!container) return;
+
+      if (shoppingCart.length === 0) {
+        container.innerHTML = `
+          <div class="p-8 rounded-2xl bg-obsidian border border-purple-500/25 text-center space-y-2">
+            <i class="fa-solid fa-cart-shopping text-2xl text-purple-400"></i>
+            <p class="text-xs font-bold text-slate-300">Your cart is empty</p>
+            <p class="text-[11px] text-slate-400">Add any Game, PS Plus plan, or Mega Bundle.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = shoppingCart.map(item => `
+        <div class="p-3.5 rounded-2xl bg-obsidian border border-purple-500/35 flex items-center justify-between gap-3">
+          <div>
+            <h4 class="text-xs font-black text-white">${item.title}</h4>
+            <span class="text-[11px] text-purple-300 block">${item.variant}</span>
+            <span class="text-sm font-display font-black text-amber-300 mt-0.5 block">${item.price.toLocaleString()} EGP</span>
+          </div>
+          <button onclick="removeCartItem(${item.uid})" class="w-8 h-8 rounded-lg bg-rose-950/70 hover:bg-rose-600 text-rose-300 hover:text-white text-xs flex items-center justify-center transition shrink-0">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        </div>
+      `).join('');
+    }
+
+    function toggleCartDrawer(open) {
+      const drawer = document.getElementById('cartDrawer');
+      const backdrop = document.getElementById('cartBackdrop');
+      if (!drawer || !backdrop) return;
+      if (open) {
+        backdrop.classList.remove('hidden');
+        drawer.classList.remove('translate-x-full');
+      } else {
+        backdrop.classList.add('hidden');
+        drawer.classList.add('translate-x-full');
+      }
+    }
+
+    // CHECKOUT VIA WHATSAPP
+    function checkoutOnWhatsApp() {
+      if (shoppingCart.length === 0) {
+        showNotification('Please add an item to your cart first!');
+        return;
+      }
+
+      const payment = document.getElementById('checkoutPaymentSelect').value;
+      const hotlineEl = document.querySelector('input[name="whatsappHotline"]:checked');
+      const hotline = hotlineEl ? hotlineEl.value : '201021020388';
+      const total = shoppingCart.reduce((acc, item) => acc + item.price, 0);
+
+      const lines = [
+        ' *NEW ORDER — LEVEL UP ZONE* ',
+        '━━━━━━━━━━━━━━━━━━━━━'
+      ];
+
+      shoppingCart.forEach((item, idx) => {
+        lines.push((idx + 1) + '. *' + item.title + '* (' + item.variant + ') — *' + item.price.toLocaleString() + ' EGP*');
+      });
+
+      lines.push('━━━━━━━━━━━━━━━━━━━━━');
+      lines.push('*Total Amount:* ' + total.toLocaleString() + ' EGP');
+      lines.push('💳 *Payment Method:* ' + payment);
+      lines.push('📸 Sending payment screenshot for instant activation!');
+
+      window.open('https://wa.me/' + hotline + '?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappGameDirect(gameId) {
+      const game = GAMES_DATA.find(g => g.id === gameId);
+      if (!game) return;
+      const slotKey = activeGameSlots[gameId] || game.defaultSlot;
+      const slot = game.slots[slotKey];
+
+      const lines = [
+        '🎮 *INSTANT GAME ORDER — LEVEL UP ZONE* 🇪🇬',
+        '▫️ *Game:* ' + game.title,
+        '▫️ *Slot:* ' + slot.label,
+        '💰 *Price:* ' + slot.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappPlusDirect(planId) {
+      const plan = PSPLUS_DATA.find(p => p.id === planId);
+      if (!plan) return;
+      const slotKey = activePlusSlots[planId] || plan.defaultSlot;
+      const slot = plan.slots[slotKey];
+
+      const lines = [
+        '👑 *PS PLUS ORDER — LEVEL UP ZONE* 🎮',
+        '▫️ *Plan:* ' + plan.title,
+        '▫️ *Slot:* ' + slot.label,
+        '💰 *Price:* ' + slot.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function whatsappBundleDirect(bundleId) {
+      const bundle = BUNDLES_DATA.find(b => b.id === bundleId);
+      if (!bundle) return;
+
+      const lines = [
+        '🔥 *OFFICIAL BUNDLE ORDER — LEVEL UP ZONE* 🇪🇬',
+        '▫️ *Bundle:* ' + bundle.title,
+        '▫️ *Includes:* ' + bundle.includes.join(' + '),
+        '💰 *Bundle Price:* ' + bundle.price.toLocaleString() + ' EGP',
+        '📸 Sending transfer screenshot now!'
+      ];
+
+      window.open('https://wa.me/201021020388?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    }
+
+    function copyValue(text, label) {
+      const area = document.createElement('textarea');
+      area.value = text;
+      document.body.appendChild(area);
+      area.select();
+      document.execCommand('copy');
+      document.body.removeChild(area);
+      showNotification('Copied ' + label + '!');
+    }
+
+    let notifyTimeout;
+    function showNotification(msg) {
+      const box = document.getElementById('toastAlert');
+      const txt = document.getElementById('toastAlertText');
+      if (!box || !txt) return;
+      txt.textContent = msg;
+      box.classList.remove('hidden');
+      box.classList.add('flex');
+      clearTimeout(notifyTimeout);
+      notifyTimeout = setTimeout(() => {
+        box.classList.add('hidden');
+        box.classList.remove('flex');
+      }, 3000);
+    }
+
+    // INITIALIZE
+    renderGames();
+    renderPsPlus();
+    renderBundles();
+    renderServices();
+    updateCartUI();
+  </script>
+</body>
+</html>
